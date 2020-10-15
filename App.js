@@ -4,15 +4,13 @@ import Header from './components/Header'
 import ListItem from './components/ListItem'
 import AddItem from './components/AddItem'
 
-
-
 const App = ()  => {
   const [items, setItems] = useState([
-    {id: Math.random(), text: 'Pizdiets'},
-    {id: Math.random(), text: 'Jobano Vrot'},
-    {id: Math.random(), text: 'Idi na hui'},
-    {id: Math.random(), text: 'Mudak'},
-    {id: Math.random(), text: 'Gavno'},
+    {id: Math.random(), text: '¡Hola!'},
+    {id: Math.random(), text: 'Lo siento'},
+    {id: Math.random(), text: '¿Dónde?'},
+    {id: Math.random(), text: 'Gracias'},
+    {id: Math.random(), text: '¿Por qué?'},
   ]);
 
   const deleteItem = (id) => {

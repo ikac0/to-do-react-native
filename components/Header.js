@@ -10,7 +10,7 @@ const Header = ({title})  => {
 };
 
 Header.defaultProps = {
-    title: 'Suka Blyat'
+    title: 'New Vocabulary'
 };
 
 const styles = StyleSheet.create({

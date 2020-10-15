@@ -13,7 +13,7 @@ const AddItem = ({title, addItem}) => {
             <TextInput placeholder="Add Item..." style={styles.input} onChangeText={handleChange} />
             <TouchableOpacity style={styles.btn} onPress={()=>addItem(text)}>
             <Text style={styles.btnText}> 
-            <AntDesign name="plussquare" size={24} color="black" />Add Item</Text>
+            <AntDesign name="plussquare" size={24} color="green" />Add New Word</Text>
             </TouchableOpacity>
         </View>
     );
@@ -26,10 +26,11 @@ const styles = StyleSheet.create({
         fontSize: 16,
     },
     btn: {
-        backgroundColor: '#c2bad2',
+        backgroundColor: '#222',
         padding: 9,
         margin: 5,
     },
+
     btnText: {
         color: 'orange',
         fontSize: 20,
